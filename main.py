@@ -57,14 +57,14 @@ canvas.grid(column = 1, row = 0)
 web_text = Label(text = 'Website:')
 web_text.grid(column = 0, row = 1)
 
-enter_web = Entry(width = 35)
+enter_web = Entry(width = 33, font=('Ariel', 12))
 enter_web.grid(column = 1, row = 1, columnspan = 2)
 enter_web.focus()
 
 mail_text = Label(text = 'Email/Username:')
 mail_text.grid(column = 0, row = 2)
 
-enter_mail = Entry(width = 35)
+enter_mail = Entry(width = 33,  font=('Ariel', 12))
 enter_mail.grid(column = 1, row = 2, columnspan = 2)
 enter_mail.insert(0, 'karanwadhwani2005@gmail.com')
 
@@ -74,10 +74,10 @@ generate_button.grid(column = 2, row = 3)
 pwd_text = Label(text = 'Password:')
 pwd_text.grid(column = 0, row = 3)
 
-enter_pwd = Entry(width = 21)
+enter_pwd = Entry(width = 20, font=('Ariel', 12))
 enter_pwd.grid(column = 1, row = 3)
 
-add_button = Button(text = 'Add', width = 30, command=prn)
+add_button = Button(text = 'Add', width = 42, command=prn)
 add_button.grid(column = 1, row = 4, columnspan = 2)
 
 
